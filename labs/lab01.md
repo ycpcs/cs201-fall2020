@@ -15,7 +15,6 @@ Dave, in dog years you are 287 years old
 
 ## Getting Started
 
-
 Download [CS201\_Lab01\_Gradle.zip](CS201_Lab01_Gradle.zip). Extract the zip file and import it into Eclipse
 
 > **File&rarr;Import...&rarr;Gradle&rarr;Existing Gradle Project**
@@ -28,11 +27,9 @@ Run the program by right-clicking on the file **DogYears.java** in the **src/mai
 
 ## Hints
 
-
 Use a **java.util.Scanner** object to read from the keyboard.
 
 ## Submitting
-
 
 When you are done, submit the lab to the Marmoset server using either of the methods below.
 
