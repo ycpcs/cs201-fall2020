@@ -91,7 +91,7 @@ Your overall grade for the course will be determined as follows:
 
 ### Course website
 
-Please check the [course web page](http://ycpcs.github.io/cs201-fall2020), regularly for important announcements.
+Please check the [course web page](https://ycpcs.github.io/cs201-fall2020), regularly for important announcements.
 
 ### Reading Assignments
 
@@ -103,7 +103,7 @@ You **must** make a legitimate attempt to complete every homework assignment. We
 
 ### Posting and submission of assignments and labs
 
-Assignments and labs will be posted as zip files on the [course web page](http://ycpcs.github.io/cs201-fall2020).
+Assignments and labs will be posted as zip files on the [course web page](https://ycpcs.github.io/cs201-fall2020).
 
 Assignments and labs will be submitted using the [Marmoset server](https://cs.ycp.edu/marmoset). You will receive an email containing the username and password you should use for this server if you do not already have an account.
 
