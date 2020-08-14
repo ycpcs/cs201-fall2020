@@ -25,9 +25,9 @@ As you implement each method, be sure to comment out
 
 > **throw new UnsupportedOperationException("TODO - implement");**
 
-## Testing
+A **main** method is provided for testing - you won't need to change it. 
 
-A **main** method is provided for testing - you won't need to change it. Run the program by right-clicking on the file **Arrays.java** in the **src/main/java/(default package)** package, and then choosing
+Run the program by right-clicking on the file **Arrays.java** in the **src/main/java/(default package)** package, and then choosing
 
 > **Run As&rarr;Java Application**
 
