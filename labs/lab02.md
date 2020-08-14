@@ -13,7 +13,7 @@ Download [CS201\_Lab02\_Gradle.zip](CS201_Lab02_Gradle.zip). Extract the zip fil
 
 You should see a project called **CS201\_Lab02\_Gradle** in the Package Explorer window.
 
-## Implementing the Coins class
+## Your task
 
 Implement the class called **Coins**, which is in the file called **Coins.java**. This file can be found by expanding the **CS201\_Lab02\_Gradle** project, then the **src/main/java/(default package)** folder. Double click on the file to open it in an editor window.
 
