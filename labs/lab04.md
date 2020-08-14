@@ -17,6 +17,10 @@ You will make changes to the class called **Remember**.
 
 Write a program that "remembers" the name of the last person to run the program.
 
+Run the program by right-clicking on the file **Remember.java** in the **src/main/java/(default package)** package, and then choosing
+
+> **Run As&rarr;Java Application**
+
 Here is an example session showing what should happen the *first* time someone runs the program (user input in **bold**):
 
 <pre>
