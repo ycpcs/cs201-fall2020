@@ -3,9 +3,6 @@ layout: default
 title: "Lab 15: Generic Algorithms"
 ---
 
-Getting Started
-===============
-
 ## Getting Started
 
 Download [CS201\_Lab15\_Gradle.zip](CS201_Lab15_Gradle.zip). Extract the zip file and import it into Eclipse
