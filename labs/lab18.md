@@ -3,22 +3,15 @@ layout: default
 title: "Lab 18: Palindromes"
 ---
 
-Getting started
-===============
+## Getting Started
 
-Download [CS201\_Lab18\_Gradle.zip](gradle_src/CS201_Lab18_Gradle.zip) (or [CS201\_Lab18.zip](CS201_Lab18.zip)). Extract the zip file and import it into Cloud9 (or Eclipse **File&rarr;Import...&rarr;Gradle&rarr;Existing Gradle Project**.) You should see a project called **CS201\_Lab18\_Gradle** in the package explorer.
+Download [CS201\_Lab18\_Gradle.zip](CS201_Lab18_Gradle.zip). Extract the zip file and import it into Eclipse
 
-In the terminal window at the bottom of the Cloud9 IDE
+> **File&rarr;Import...&rarr;Gradle&rarr;Existing Gradle Project**
 
-    cd ~
-    cd environment/CS201_Lab18_Gradle
+You should see a project called **CS201\_Lab18\_Gradle** in the Package Explorer window.
 
-<!--
-Import [CS201\_Lab18.zip](CS201_Lab18.zip) (**File&rarr;Import...&rarr;General&rarr;Existing Projects into Workspace&rarr;Archive File**). You should see a project called **CS201\_Lab18** in the Package Explorer.
--->
-
-Your Task
-=========
+## Your Task
 
 A phrase is a palindrome when the sequence of the letters in the phrase is the same both forwards an backwards, ignoring space and punctuation. Some examples:
 
@@ -58,8 +51,7 @@ Not a palindrome
 <i>program exits</i>
 </pre>
 
-Requirements and hints
-======================
+## Hints
 
 You will need to treat a String object as a sequence of characters. You can use the **length** and **charAt** methods to get the length of a string and the value of a single character of the string, respectively. For example, here is how to iterate over all of the characters in a **String**:
 
@@ -88,51 +80,24 @@ You should also ignore case. One way to do this is by converting all letters to 
 c = Character.toLowerCase(c);
 {% endhighlight %}
 
-Running the Program
-===================
+## Running the Program
 
-From the terminal window at the bottom of the Cloud9 IDE, 
+Run the program by right-clicking on the file **CheckPalindrome.java** in the **src/main/java/(default package)** package, and then choosing
 
-    gradle run
-
-Submitting
-==========
-
-When you are done, submit the lab to the Marmoset server using
-
-    make submit
-    
-If you receive a permission denied error, type
-
-    chmod 755 submitToMarmoset.pl
-    make submit
-
-<!--
-Running the program
-===================
-
-Run the **CheckPalindrome** class as a Java Application (right-click, **Run As&rarr;Java Application**).
-
-Type in some phrases and make sure that the program can successfully distinguish palindromes from non-palindromes.
-
-Submitting
-==========
+## Submitting
 
 When you are done, submit the lab to the Marmoset server using either of the methods below.
 
-From Eclipse
-------------
+### From Eclipse
 
-If you have the [Simple Marmoset Uploader Plugin](../resources/index.html) installed, select the project (**CS201\_Lab18**) in the package explorer and then press the blue up arrow button in the toolbar. Enter your Marmoset username and password when prompted.
+If you have the [Simple Marmoset Uploader Plugin](../resources.html) installed, then right click on the project (**CS201\_Lab18\_Gradle**) and choose **Submit project...**. Enter your Marmoset username and password when prompted.
 
-From a web browser
-------------------
+### From a web browser
 
-Save the project (**CS201\_Lab18**) to a zip file by right-clicking it and choosing
+Save the project (**CS201\_Lab18\_Gradle**) to a zip file by right-clicking it and choosing
 
 > **Export...&rarr;Archive File**
 
 Upload the saved zip file to the Marmoset server as **lab18**. The server URL is
 
-> <https://cs.ycp.edu/marmoset/>
--->
+> [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
