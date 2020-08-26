@@ -7,7 +7,7 @@ title: "Tic Tac Toe"
 
 ## Getting Started
 
-Download [CS201\_Assign01\_Gradle_.zip](CS201_Assign01\_Gradle_.zip) Extract the zip file and import it into Eclipse
+Download [CS201\_Assign01\_Gradle_.zip](CS201_Assign01_Gradle_.zip) Extract the zip file and import it into Eclipse
 
 > **File&rarr;Import...&rarr;Gradle&rarr;Existing Gradle Project**
 
