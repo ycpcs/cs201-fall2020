@@ -34,7 +34,7 @@ Mark Allen Weiss, [Data Structures & Problem Solving Using Java, 4th ed.](http:/
 
 Class meetings will be a mix of lecture/discussion and in-class lab exercises designed to illustrate the concepts we are covering. A series of programming projects in the Java programming language will be assigned at approximately 1-2 week intervals, to be completed individually. Written homework assignments may be assigned.
 
-We will use the Eclipse IDE for labs and programming assignments in Java. This is available for free from [www.eclipse.org](http://www.eclipse.org/). (You will also need the Java Development Kit (JDK) available from [java.sun.com](http://java.sun.com/).)  Make sure you get version 1.8 or higher.
+We will use the Eclipse IDE for labs and programming assignments in Java. This is available for free from [www.eclipse.org](http://www.eclipse.org/). (You will also need the [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html).)  Make sure you get version 1.8 or higher.
 
 <!--
 In-class quizzes will be given frequently, typically at the beginning of class. One missed quiz will be forgiven. Quizzes may not be made up.
