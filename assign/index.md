@@ -9,7 +9,7 @@ Assignments are due by 11:59 PM on the due date, although I will **NOT** assess 
 
 > Assignment | File | Due
 > ---------- | ---- | ---
-> [Assignment 1: Tic Tac Toe](assign01.html) | [CS201\_Assign01\_Gradle.zip](CS201_Assign01_Gradle.zip) | Mon, Sept 7th
+> [Assignment 1: Tic Tac Toe](assign01.html) | [CS201\_Assign01\_Gradle.zip](CS201_Assign01_Gradle.zip) | Thur, Sept 10th
 
 
 <!--
