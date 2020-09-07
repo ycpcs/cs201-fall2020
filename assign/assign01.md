@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tic Tac Toe"
+title: "Assignment 1: Tic Tac Toe"
 ---
 
 **Due**: Thur, Sept 10th by 11:59 PM
