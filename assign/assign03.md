@@ -64,10 +64,10 @@ You should add whatever fields are necessary to represent the state of the game.
 
 The constructor should initialize all of the fields of **DisksPanel**.  This could include:
 
-* create a new random **Disk** object and store a reference to it in a field
-* create an array of **Disk** references and store a reference to it in a field
+* initialize temporary x and y disk location fields and a random radius field
+* allocate an array/ArrayList of **Disk**s
 * start the count of how many disks have been placed at 0
-* initialize the initial timeout duration and the amonut of time remaining to place the current disk (these could be **int** fields)
+* initialize the initial timeout duration and the amount of time remaining to place the current disk (these could be **int** fields)
 
 ### Mouse events
 
