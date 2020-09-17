@@ -91,7 +91,7 @@ Remember that you will need to call **repaint** to force the contents of the pan
 
 ### Disk creation
 
-When the next disk is ready to be placed, its radius should be randomly chosen in the range 10..44, inclusive. You can generate random numbers using an instance of the **java.util.Random** class as a field:
+Start the next disk at the same location as the previously placed one. When the next disk (or the initial one) is being positioned by the user, its radius should be randomly chosen in the range 10..44, inclusive. You can generate random numbers using an instance of the **java.util.Random** class as a field:
 
 {% highlight java %}
 private Random rand;
@@ -111,7 +111,7 @@ rand.nextInt(n)
 
 ### Disk placement
 
-The game will need to keep track of each disk that has been placed successfully.  One approach is to use an array.  For example, add the following fields to the **DisksPanel** class:
+When the user clicks the mouse, a new **Disk** object should be created using the current cursor position, radius, and random color (see step 6 below). The game will need to keep track of each disk that has been placed successfully.  One approach is to use an array.  For example, add the following fields to the **DisksPanel** class:
 
 {% highlight java %}
 private Disk[] disks;
