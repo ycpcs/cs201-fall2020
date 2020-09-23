@@ -38,7 +38,7 @@ Add some JUnit tests to test comparing **Card** objects using the **compareTo** 
 Part 3 - Sorting Cards
 ----------------------
 
-Finally, demonstrate that you if you can compare cards, then an array of cards can be sorted using the **java.util.Arrays.sort** static method.
+Finally, demonstrate that if you can compare cards, then an array of cards can be sorted using the **java.util.Arrays.sort** static method.
 
 As one of the objects in your test fixture, create an array of **Card** objects. You can use the **Card** objects you've already created as element values. Make sure that the elements of the array are not already sorted.
 
