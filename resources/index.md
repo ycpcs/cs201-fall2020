@@ -31,7 +31,7 @@ Click the **Add...** button
 
 In the **Location:** field, paste the following URL:
 
-> http://faculty.ycp.edu/~dhovemey/simpleMarmosetUploader
+> https://daveho.github.io/SimpleMarmosetUploader
 
 In the **Name:** field, enter **Simple Marmoset Uploader**.
 

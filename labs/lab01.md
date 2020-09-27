@@ -35,7 +35,7 @@ When you are done, submit the lab to the Marmoset server using either of the met
 
 ### From Eclipse
 
-If you have the [Simple Marmoset Uploader Plugin](../resources.html) installed, then right click on the project (**CS201\_Lab01\_Gradle_**) and choose **Submit project...**. Enter your Marmoset username and password when prompted.
+If you have the [Simple Marmoset Uploader Plugin](../resources/index.html) installed, then right click on the project (**CS201\_Lab01\_Gradle_**) and choose **Submit project...**. Enter your Marmoset username and password when prompted.
 
 ### From a web browser
 
