@@ -194,7 +194,7 @@ Also note that points may be deducted for poor coding style.
 
 ## Submitting
 
-When you are done, submit the lab to the Marmoset server using either of the methods below.
+When you are done, submit the assignment to the Marmoset server using either of the methods below.
 
 ### From Eclipse
 
