@@ -9,7 +9,7 @@ title: "Assignment 4: Klondike"
 
 ## Getting Started
 
-Download [CS201\_Assign04\_Gradle.zip](CS201_Assign04\_Gradle.zip). Extract the zip file and import it into Eclipse
+Download [CS201\_Assign04\_Gradle.zip](CS201_Assign04_Gradle.zip). Extract the zip file and import it into Eclipse
 
 > **File&rarr;Import...&rarr;Gradle&rarr;Existing Gradle Project**
 
