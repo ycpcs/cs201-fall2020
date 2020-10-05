@@ -58,20 +58,23 @@ courseInfo.classPeriods = [
 		lab: new NumberedLabGradle(11, "Functors")
 	},
 	{
-		topic: new Topic("Lecture 12: Analysis of Algorithms", "lectures/lecture12.html"),
+		topic: new Topic("Exam 1 Review", "")
+	},
+	{
+		topic: new DoubleTopic("Lecture 12: Analysis of Algorithms", "lectures/lecture12.html", "Lecture 13: Big-O", "lectures/lecture13.html"),
 		reading: "5.1&ndash;5.3",
-		lab: new NumberedLabGradle(12, "Benchmarking ArrayList")
+		lab: new DoubleNumberedLabGradleNoFile(12, "Benchmarking ArrayList", 13, "Big-O")
 	},
 //	{
 //		topic: new Topic("AWS Setup", ""),
 //		reading: "Canvas videos",
 //		lab: new NumberedLabGradle(7, "Inheritance AWS Test")
 //	},
-	{
-		topic: new Topic("Lecture 13: Big-O", "lectures/lecture13.html"),
-		reading: "5.4&ndash;5.8",
-		lab: new NumberedLabNoFile(13, "Big-O")
-	},
+//	{
+//		topic: new Topic("Lecture 13: Big-O", "lectures/lecture13.html"),
+//		reading: "5.4&ndash;5.8",
+//		lab: new NumberedLabNoFile(13, "Big-O")
+//	},
 	{
 		topic: new Topic("Lecture 14: Collections, Iterators", "lectures/lecture14.html"),
 		reading: "6.1-6.3",

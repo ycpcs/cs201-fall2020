@@ -100,6 +100,29 @@ function DoubleNumberedLab(number1, title1, number2, title2) {
     this.file2 = shortCourse + "_Lab" + numstr2 + ".zip";
 }
 
+function DoubleNumberedLabGradle(number1, title1, number2, title2) {
+    this.title1 = "Lab " + number1 + ": " + title1;
+    var numstr1 = (number1 < 10 ? "0" : "") + number1;
+    this.link1 = "lab" + numstr1 + ".html";
+    var shortCourse = courseInfo.courseName.replace(/:.*$/, '').replace(/ /, '');
+    this.file1 = shortCourse + "_Lab" + numstr1 + "_Gradle.zip";
+    this.title2 = "Lab " + number2 + ": " + title2;
+    var numstr2 = (number2 < 10 ? "0" : "") + number2;
+    this.link2 = "lab" + numstr2 + ".html";
+    this.file2 = shortCourse + "_Lab" + numstr2 + "_Gradle.zip";
+}
+
+function DoubleNumberedLabGradleNoFile(number1, title1, number2, title2) {
+    this.title1 = "Lab " + number1 + ": " + title1;
+    var numstr1 = (number1 < 10 ? "0" : "") + number1;
+    this.link1 = "lab" + numstr1 + ".html";
+    var shortCourse = courseInfo.courseName.replace(/:.*$/, '').replace(/ /, '');
+    this.file1 = shortCourse + "_Lab" + numstr1 + "_Gradle.zip";
+    this.title2 = "Lab " + number2 + ": " + title2;
+    var numstr2 = (number2 < 10 ? "0" : "") + number2;
+    this.link2 = "lab" + numstr2 + ".html";
+}
+
 function TripleNumberedLab(number1, title1, number2, title2, number3, title3) {
     this.title1 = "Lab " + number1 + ": " + title1;
     var numstr1 = (number1 < 10 ? "0" : "") + number1;

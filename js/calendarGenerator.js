@@ -174,6 +174,8 @@ function isLab(lab) {
         || (lab instanceof NumberedLabNoFile)
         || (lab instanceof NumberedLabGradle)
         || (lab instanceof DoubleNumberedLab)
+        || (lab instanceof DoubleNumberedLabGradle)
+        || (lab instanceof DoubleNumberedLabGradleNoFile)
         || (lab instanceof TripleNumberedLab);
 }
 
@@ -194,6 +196,14 @@ function getLabString(lab, assignOnDate) {
     	} else if (lab instanceof NumberedLabGradle) {
         	str = linkify(lab.title1, lab.link1);
     	} else if (lab instanceof DoubleNumberedLab) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+        } else if (lab instanceof DoubleNumberedLabGradle) {
+        	str = linkify(lab.title1, lab.link1);
+        	str += "<br>";
+        	str += linkify(lab.title2, lab.link2);
+    	} else if (lab instanceof DoubleNumberedLabGradleNoFile) {
         	str = linkify(lab.title1, lab.link1);
         	str += "<br>";
         	str += linkify(lab.title2, lab.link2);
