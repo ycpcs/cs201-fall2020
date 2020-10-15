@@ -185,7 +185,7 @@ So, what is <i>n</i><sub>iters</sub>? It is a function of two parameters:
 
 where <i>n</i> is the number of elements in the ArrayList, and <i>i</i> is the index of the element being removed.
 
-So, when we call **remove** on an ArrayList with *n*/*i* elements, it will take a constant amount of time to remove the last element, and time proportional to *n* - 1 to remove the first element. This makes sense: more work is required to shift over the elements to the right of the one we're removing the closer the removed element is to the beginning of the array.
+So, when we call **remove** on an ArrayList with *n* elements, it will take a constant amount of time to remove the last element, and time proportional to *n* - 1 to remove the first element. This makes sense: more work is required to shift over the elements to the right of the one we're removing the closer the removed element is to the beginning of the array.
 
 Worst case
 ----------
