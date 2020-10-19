@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 5: Mandelbrot Set Renderer"
 ---
 
-**Milestone 1** Thursday, Apr 23rd by 11:59 PM
+**Milestone 1** Tuesday, Nov 10th by 11:59 PM
 
-**Updated Milestone 2** Thursday, May 7th by 11:59 PM
+**Milestone 2** Tuesday, Nov 24th by 11:59 PM
 
 Getting Started
 ===============
@@ -37,7 +37,9 @@ Note that the magnitude of a complex number is the square root of the sum of the
 
 ## Your Task
 
-Your task is to implement a renderer for the [Mandelbrot Set](http://en.wikipedia.org/wiki/Mandelbrot_set), using [parallel computation](../lectures/lecture17.html) to speed up the rendering process. 
+Your task is to implement a renderer for the [Mandelbrot Set](http://en.wikipedia.org/wiki/Mandelbrot_set), using [parallel computation](../lectures/lecture17.html) to speed up the rendering process.
+
+You can see a demo (which also allows zooming by selecting a region with the mouse): [Simple Mandelbrot](mandelbrot-obfuscated.jar) or [ColorChooser Mandelbrot](mandelbrot2-obfuscated.jar).
 
 For example, using the default values produces the following generated output file (click to see larger version):
 
