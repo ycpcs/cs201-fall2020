@@ -130,10 +130,10 @@ courseInfo.classPeriods = [
 	{
 		topic: new Topic("** Exam 3", "")
 	},
-	{
-		topic: new DoubleTopic("Lecture 24: Relational Databases and SQL", "lectures/lecture24.html", "Lecture 25: Database Applications and JDBC", "lectures/lecture25.html"),
-		lab: new DoubleNumberedLab(23, "Relational Databases and SQL", 24, "JDBC")
-	},
+//	{
+//		topic: new DoubleTopic("Lecture 24: Relational Databases and SQL", "lectures/lecture24.html", "Lecture 25: Database Applications and JDBC", "lectures/lecture25.html"),
+//		lab: new DoubleNumberedLab(23, "Relational Databases and SQL", 24, "JDBC")
+//	},
 ];
 
 // The following is for the college-scheduled final exam.
