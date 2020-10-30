@@ -137,7 +137,7 @@ public class MyStack<E> implements Stack<E> {
     }
     
     public E peek() {
-        list.get(list.size() - 1);
+        return list.get(list.size() - 1);
     }
 }
 {% endhighlight %}
