@@ -119,7 +119,7 @@ public class MyStack<E> implements Stack<E> {
     private ArrayList<E> list;
     
     public MyStack() {
-        list = new ArrayList();
+        list = new ArrayList<E>();
     }
     
     public boolean isEmpty() {
