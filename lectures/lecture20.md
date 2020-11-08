@@ -145,12 +145,11 @@ public static int factTailRecWork(int n, int accum) {
 public static int countThrees(int n) {
   if (n == 0) { return 0; }
   int lastDigit = n % 10;
-  int total = 0;
-  total = total + countThrees(n / 10);
+  int addThree = 0;
   if (lastDigit == 3) {
-    total = total + 1;
+    addThree = 1;
   }
-  return total;
+  return countThrees(n / 10) + addThree;
 }
 
 // Tail-recursive version of countThrees
